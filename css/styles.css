@@ -1,0 +1,193 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#configForm {
+    margin-bottom: 20px;
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+#configForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#configForm input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+/* Estilos para los componentes dinámicos */
+.componente-dinamico {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.componente-dinamico label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.componente-dinamico input[type="text"],
+.componente-dinamico input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.componente-dinamico select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.componente-dinamico .opciones-container {
+    margin-top: 10px;
+}
+
+.componente-dinamico .opciones-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.componente-dinamico .opciones-container ul li {
+    margin-bottom: 10px;
+}
+
+.componente-dinamico button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.componente-dinamico button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px; 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el contenedor de preguntas */
+#preguntasContainer {
+    margin-top: 20px;
+}
+
+
+/* Estilos para las preguntas mostradas */
+.pregunta {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.pregunta label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.pregunta input[type="text"],
+.pregunta input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.pregunta select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.pregunta .opciones-container {
+    margin-top: 10px;
+}
+
+.pregunta .opciones-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+}
+
+.pregunta .opciones-container ul li {
+    margin-bottom: 10px;
+}
+
+.pregunta button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pregunta button:hover {
+    background-color: #0056b3;
+}
+
